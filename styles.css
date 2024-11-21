@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.past-appointment {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.past-appointment h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.past-appointment p {
+    margin: 5px 0;
+}
+
+.appointment-details {
+    margin-bottom: 20px;
+}
+
+.viewing-info {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.powered-by {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.powered-by img {
+    width: 100px;
+}
+
+.language-links {
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .past-appointment {
+        padding: 10px;
+    }
+
+    .powered-by img {
+        width: 80px;
+    }
+}
